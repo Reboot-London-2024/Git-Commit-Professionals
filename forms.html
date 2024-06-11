@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ServiceNow Request Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Service Request Form</h1>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="employee-number">Employee Number:</label>
+      <input type="text" id="employee-number" name="employee-number" required />
+
+      <label for="cost-centre">Cost Centre:</label>
+      <input type="text" id="cost-centre" name="cost-centre" required />
+
+      <label for="type-of-request">Type of Request:</label>
+      <select id="type-of-request" name="type-of-request" required>
+        <option value="">Select a request type</option>
+        <option value="hardware">Hardware</option>
+        <option value="software">Software</option>
+        <option value="network">Network</option>
+        <option value="access">Access</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="justification">Justification:</label>
+      <textarea
+        id="justification"
+        name="justification"
+        rows="4"
+        required
+      ></textarea>
+
+      <button type="submit">Add to Cart</button>
+    </form>
+  </body>
+</html>
