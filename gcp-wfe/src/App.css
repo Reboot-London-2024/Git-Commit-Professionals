@@ -1,14 +1,21 @@
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.subHeader {
+  color: rgb(2, 71, 49);
+  font-size: 48px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffffff;
   display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-} */
+.paragraph {
+  color: black;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}

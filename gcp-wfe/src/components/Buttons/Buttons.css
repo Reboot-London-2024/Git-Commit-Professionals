@@ -1,0 +1,45 @@
+.helpButtons {
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  width: 1300px;
+  height: 100px;
+}
+
+.btn1 {
+  border-radius: 0 !important;
+  width: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 30px;
+}
+
+.btn2 {
+  border-radius: 0 !important;
+  width: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn3 {
+  border-radius: 0 !important;
+  background-color: rgb(0, 106, 77);
+  width: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn4 {
+  border-radius: 0 !important;
+  width: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 90px;
+}
+
+.btn4:hover:hover {
+  background-color: rgb(0, 106, 77) !important;
+}
+
+.helpBtn {
+  color: rgb(0, 106, 77) !important;
+  border-radius: 0 !important;
+}
