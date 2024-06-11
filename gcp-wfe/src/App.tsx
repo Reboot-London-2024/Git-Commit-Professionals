@@ -6,6 +6,7 @@ import ReceiveOffer from "./pages/ReceiveOffer/receiveOffer";
 import PreBoarding from "./pages/PreBoarding/preBoarding";
 import DayOne from "./pages/DayOne/dayOne";
 import FirstNinetyDays from "./pages/FirstNinetyDays/firstNinetyDays";
+import Forum from "./pages/Forum/forum";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/preBoarding" element={<PreBoarding />} />
         <Route path="/dayOne" element={<DayOne />} />
         <Route path="/firstNinetyDays" element={<FirstNinetyDays />} />
+        <Route path="/forum" element={<Forum />} />
         <Route path="/forum" />
       </Routes>
     </Router>
