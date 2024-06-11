@@ -4,8 +4,8 @@
   vertical-align: middle;
 }
 
-.text {
-  color: #f1f1f1;
+.headerText {
+  color: #f1f1f1 !important;
 }
 
 .bg-body-tertiary {
