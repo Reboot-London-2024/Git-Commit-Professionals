@@ -3,43 +3,47 @@ import Button from "react-bootstrap/Button";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./style.css";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 
 function Header() {
   return (
-    <Container className="header">
-      <Row>
-        <Col xs={6}>
-          <Button
-            href="/"
-            className="bi bi-house-fill"
-            size="lg"
-            variant="light"
-          />
-        </Col>
-        <Col xs={4}>
-          <a href="/receiveOffer" className="text">
-            Receive Offer
-          </a>
-          {"     "}
-          <a href="/preBoarding" className="text">
-            Pre-Boarding
-          </a>
-          {"     "}
-          <a href="/dayOne" className="text">
-            Day One
-          </a>
-          {"     "}
-          <a href="/firstNinetyDays" className="text">
-            First Ninety Days
-          </a>
-        </Col>
-        <Col xs={2}>
+    <Navbar className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="/">
+          <Button variant="light" className="bi bi-house-fill" />
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Nav>
+            <Nav.Link href="/receiveOffer" className="text">
+              Receive Offer
+            </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="/preBoarding" className="text">
+              Pre-Boarding
+            </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="/dayOne" className="text">
+              Day One
+            </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="/firstNinetyDays" className="text">
+              First Ninety Days
+            </Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="/forum" className="text">
+              New Joiner Forum
+            </Nav.Link>
+          </Nav>
           <Button variant="light">Log In</Button>
-        </Col>
-      </Row>
-    </Container>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 

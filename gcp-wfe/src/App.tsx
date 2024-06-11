@@ -16,6 +16,7 @@ function App() {
         <Route path="/preBoarding" element={<PreBoarding />} />
         <Route path="/dayOne" element={<DayOne />} />
         <Route path="/firstNinetyDays" element={<FirstNinetyDays />} />
+        <Route path="/forum" />
       </Routes>
     </Router>
   );
